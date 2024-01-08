@@ -12,7 +12,7 @@ function App() {
   const [confirmation, setconfirmation] = useState(false)
   const [lessThanTenMins, setlessThanTenMins] = useState(false)
   const [page, setpage] = useState('home')
-  const answers=['rad1','rad1','rad4','rad2','rad2','rad3','rad4','rad3','rad1','rad2','rad1','rad3','rad2','rad1','rad3','rad2','rad4','rad2','rad2','rad4']
+  const answers=['rad4','rad1','rad4','rad2','rad2','rad3','rad4','rad3','rad1','rad2','rad1','rad3','rad2','rad1','rad3','rad2','rad4','rad2','rad2','rad4']
   //function to change the component being rendered 
 const handlePage=(param)=>{
     setpage(param)

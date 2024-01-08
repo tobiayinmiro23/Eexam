@@ -1,0 +1,258 @@
+
+/* Questions */
+.option1,
+.option2,
+.option3,
+.option4 {
+  display: flex;
+  align-items: center;
+}
+.quest {
+  margin-bottom: 4rem;
+  background:white;
+  width:65%;
+  height:85%;
+  margin:auto;
+  /* margin:2rem 1rem */
+}
+.quest h2 {
+  font-size: 2rem;margin-bottom: 2rem;
+}
+.radios h5 {
+  font-size: 1rem;
+  margin: 0.8rem 0rem;
+}
+.radios,
+.questionHeader{
+  text-align:start;
+  margin-left:2rem;
+}
+.quest h4 {
+  font-size: 1.4rem;
+}
+/* Answer button */
+.blue {
+  padding: 0.2rem 0.5rem;
+  background: #61dafb;
+  cursor: pointer;
+  margin-left: 0.35rem;
+  border-radius: 0rem 0.4rem 0rem 0.4rem;
+  outline: none;
+  border: 0.6px solid wheat;
+  box-shadow: 0.5px 2px 2px grey;
+}
+.red{
+  background-color: red !important;
+  color: red;
+}
+.green {
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  margin-left: 0.35rem;
+  border-radius: 0rem 0.4rem 0rem 0.4rem;
+  outline: none;
+  border: 0.6px solid wheat;
+  box-shadow: 0.5px 2px 2px grey;
+  background: greenyellow;
+}
+.questBtnContainer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:1.3rem;
+}
+.nav h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* timer */
+.timer{
+  width:28%;
+  background:#282c34;
+  height:78.3Vh;
+  height: 100%;
+  /* padding-top:1rem ; */
+  /* padding:1rem ; */
+  margin-left:auto;
+  text-align:center;
+}
+.time{
+  display:flex;
+  border-radius:0.1rem;
+  align-items:center;
+  justify-content:center;
+  background:white;
+  width:92%;
+  height:4rem;
+  height: 10%;
+  margin:auto;
+  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.timeContainer{
+  display:flex;
+  margin-left: 0.7rem;
+}
+.examInfo{
+  /* margin:1rem 1rem; */
+  border-radius:0.1rem;
+  width: 92%;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding:0.5rem 0.1rem;
+  height:69%;
+  height: 72.5%;
+   background:white;
+}
+.examInfo h4{
+  margin-bottom:0.7rem
+}
+.examInfo h3{
+  margin:1rem 0rem;
+}
+.examInfo{
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.submit{
+  background:#61dafb;
+  cursor:pointer;
+  outline:none;
+  border-radius:0.19rem;
+  border:3px solid wheat;
+  width:92%;
+  font-size:1rem;
+  height: 3rem;
+  height: 10%;
+}
+.timeOut{
+  text-align: center;
+  margin-top: 0.5rem;
+  /* margin-bottom: 1rem; */
+  color: red;
+}
+.red{
+  background-color: red;
+}
+/* container */
+.container{
+  background:blanchedalmond;
+  box-shadow:1px 3px 3px grey;
+  padding:0.35rem;
+  width:95%;
+  margin:auto;
+  margin-top:1.7rem;
+  text-align:center;
+  height: 100%;
+  height: 83vh;
+}
+.questionContainer{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:70vh;
+  height: 100%;
+}
+img{
+  width: 100%;
+}
+.forward,
+.backward{
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+/* congratulation /confirmation modal */
+.Confirmation{
+  top: 35%;
+  left: 50%;
+  width: 30%;
+  width: 28rem;
+  transform: translate(-50%,-35%);
+  position: absolute;
+  padding: 0.4rem 1rem;
+  /* border-radius: 0.3rem; */
+  background-color: white;
+  background-color: black;
+  background-color: rgb(58, 52, 52);
+  background:#202329;
+  color: white;
+
+  /* box-shadow: 0px 0px 4px 2px #efeeee; */
+}
+.Confirmation .confirmImg{
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.Confirmation header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem; 
+}
+.Confirmation h2{
+   /* text-align: center; */
+}
+.Confirmation p{
+  text-align: center;
+  font-size: 1.1rem;
+}
+.Confirmation button{
+  cursor:pointer;
+  border: none;
+  font-weight: bolder;
+  margin:0rem 0.35rem;
+  padding: 0.4rem 0.9rem;
+  outline:none;
+  border-radius:0.19rem;
+  /* box-shadow: 0px 1px 3px #bebdbd; */
+
+}
+.Confirmation .no{
+  background-color: red;
+}
+.Confirmation .yes{
+  background: greenyellow;
+}
+.btnContainer{
+  margin: 1rem;
+  text-align: end;
+}
+.Confirmation .yes:hover{
+  background: rgb(171, 246, 58);
+}
+.Confirmation .no:hover{
+  background-color: rgb(243, 4, 4);
+}
+/* congratulations */
+.Congratulations .congratsContainer{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+.Congratulations .congratsContainer h1{
+  margin-bottom: 2rem;
+}
+.Congratulations button{
+  background-color: lightgreen;
+  background: greenyellow;
+  cursor:pointer;
+  border: none;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 0.4rem 0.9rem;
+  outline:none;
+  border-radius:0.19rem;
+  box-shadow: 0px 1px 3px #bebdbd;
+}
+.Congratulations .back{
+  margin: 0.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  cursor: pointer;
+}
